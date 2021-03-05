@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+.ecma8 button{
+    background-color: aquamarine;
+}
+
+</style>
+
 <body>
 
     <button class="btn-prueba" id="btn-prueba"> prueba </button>
@@ -17,6 +24,39 @@
         <button type="button" class="btn-sum" id="btn-sum"> Suma </button>
         <div class="respuesta" id="respuesta"></div>
     </div>
+    <div>
+        <div style="border: solid 1px black; width: 50%;"> 1 3 5 7 9</div>
+        <input type="number" id="inputSearch">
+        <button id="btnInclude" >El numero aparece?</button>
+    </div>
+    <div class="ecma8">
+        <h1>ECMASCript8</h1>
+        <button id="btnEntries" >Object.entries</button>
+        <button id="btnValues" >Object.Values</button>
+        <button id="btnPadStart" >padStart de "hola"</button>
+        <button id="btnPadEnd" >padEnd de "hola"</button>
+    </div>
+    <div class="ecma9">
+        <h1>ECMASCript9</h1>
+        <button type="button" class="btn-reposo" id="btn-reposo"> Operador de Reposo </button>
+        <button type="button" class="btn-reposo2" id="btn-reposo2"> Operador de Reposo 2 </button>
+        <button type="button" class="btn-reposo3" id="btn-reposo3"> Operador de Reposo 3 </button>
+        <button type="button" class="btn-regex" id="btn-regex"> regex </button>
+    </div>
+    <div class="ecma10">
+        <h1>EMASCript10</h1>
+        <button type="button" class="btn-flat1" id="btn-flat1"> array flat 1 nivel </button>
+        <button type="button" class="btn-flat2" id="btn-flat2"> array flat 2 niveles </button>
+        <button type="button" class="btn-flatMap" id="btn-flatMap"> array flatMap (dato + dato por dos) </button>
+        <button type="button" class="btn-trimStart" id="btn-trimStart"> trimStart </button>
+        <button type="button" class="btn-trimEnd" id="btn-trimEnd"> trimEnd </button>
+        <button type="button" class="btn-entries" id="btn-entries"> Object.fromEntries </button>
+
+
+    </div>
+    
+
+
 
 
 
@@ -25,6 +65,11 @@
     <script src="spreadOperators.js"></script>
     <script src="clases.js"></script>
     <script src="ejercicioSuma.js"></script>
+    <script src="include.js"></script>
+    <script src="ecmascript8.js"></script>
+    <script src="ecmascript9.js"></script>
+    <script src="finally.js"></script>
+    <script src="ecmascript10.js"></script>
     
 </body>
 </html>
